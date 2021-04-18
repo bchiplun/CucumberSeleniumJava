@@ -1,13 +1,13 @@
 Feature: Search and add items to cart
 
-@Selenium
+@Selenium1
 Scenario: Search a vegetable and check if it is displayed
 Given User is on Greenkart home page
 When User seach "Cucumber" in search box
 Then "Cucumber" is displayed on the page
 
 
-@Selenium
+@Selenium2
 Scenario: Search a vegetable and add to cart and check if it is displayed
 Given User is on Greenkart home page
 When User seach "Brinjal" in search box
