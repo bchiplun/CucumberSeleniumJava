@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 		//glue = "stepDefinitions", tags="@Tag2"
 		//glue = "stepDefinitions", tags="@Tag1, @Tag3", strict=true, monochrome=true
 		
-		glue = "stepDefinitions", tags="@Selenium", strict=true, monochrome=true,
+		glue = "stepDefinitions", tags="@Selenium1", strict=true, monochrome=true,
 		
 		//for reports
 		plugin = {"pretty","html:target/cucmber", "json:target/cuc.json", "junit:target/cuk.xml"}
