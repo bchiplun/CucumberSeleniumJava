@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search a vegetable and check if it is displayed",
+        "description": "",
+        "id": "search-and-add-items-to-cart;search-a-vegetable-and-check-if-it-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 380411300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSelenium()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5406777400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Greenkart home page",
+            "match": {
+              "location": "SeleniumstepDefinition.user_is_on_greenkart_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3415510800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User seach \"Cucumber\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 12
+                }
+              ],
+              "location": "SeleniumstepDefinition.user_seach_something_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78955400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Cucumber\" is displayed on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "SeleniumstepDefinition.something_is_displayed_on_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Selenium"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Search a vegetable and add to cart and check if it is displayed",
+        "description": "",
+        "id": "search-and-add-items-to-cart;search-a-vegetable-and-add-to-cart-and-check-if-it-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 191872600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSelenium()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3814643300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Greenkart home page",
+            "match": {
+              "location": "SeleniumstepDefinition.user_is_on_greenkart_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3292177500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User seach \"Brinjal\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 12
+                }
+              ],
+              "location": "SeleniumstepDefinition.user_seach_something_in_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3504138800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User adds the vegetable into cart",
+            "match": {
+              "location": "SeleniumstepDefinition.user_adds_the_vegetable_into_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266613600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User goes to cart page",
+            "match": {
+              "location": "SeleniumstepDefinition.user_goes_to_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49559500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "\"Brinjal\" is displayed on the cart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 1
+                }
+              ],
+              "location": "SeleniumstepDefinition.is_displayed_on_the_cart_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Selenium"
+          }
+        ]
+      }
+    ],
+    "name": "Search and add items to cart",
+    "description": "",
+    "id": "search-and-add-items-to-cart",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]
